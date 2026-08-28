@@ -1,0 +1,22 @@
+node_modules/
+dist/
+dist-single/
+*.local
+.env
+.env.*
+!.env.example
+!.env.production
+!.env.production.example
+.DS_Store
+*.log
+coverage/
+.vite/
+
+# Never commit real data.
+*.xlsx
+*.csv
+!docs/**/*.csv
+data/production/
+/tmp/live/
+fixtures/live/
+dist-single-live/
